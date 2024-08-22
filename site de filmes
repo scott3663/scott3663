@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Cinema Online</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Gêneros</a></li>
+                    <li><a href="#">Novidades</a></li>
+                    <li><a href="#">Sobre Nós</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Assista aos Seus Filmes Favoritos</h2>
+            <p>Explore nossa vasta biblioteca de filmes e encontre seus favoritos!</p>
+        </section>
+
+        <section class="movies">
+            <h2>Em Alta</h2>
+            <div class="movie-grid">
+                <div class="movie-card">
+                    <img src="https://via.placeholder.com/200x300" alt="Filme 1">
+                    <h3>Filme 1</h3>
+                </div>
+                <div class="movie-card">
+                    <img src="https://via.placeholder.com/200x300" alt="Filme 2">
+                    <h3>Filme 2</h3>
+                </div>
+                <div class="movie-card">
+                    <img src="https://via.placeholder.com/200x300" alt="Filme 3">
+                    <h3>Filme 3</h3>
+                </div>
+                <!-- Adicione mais cartões de filme aqui -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Cinema Online. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
